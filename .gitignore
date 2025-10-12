@@ -141,3 +141,8 @@ vite.config.ts.timestamp-*
 .vite/
 node_modules/
 dist/
+
+# Quarto render byproducts
+*_files/
+*_cache/
+_site/
