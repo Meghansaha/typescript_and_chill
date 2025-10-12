@@ -52,7 +52,7 @@ if (motivation_check) {
     console.log("I don't want to do anything!")
 }
 
-// defined
+// undefined
 let words = undefined
 
 if (words == undefined) {
