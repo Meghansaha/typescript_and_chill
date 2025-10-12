@@ -8,7 +8,7 @@ A personal space to learn, practice, and demonstrate working knowledge of **Type
 
 **TypeScript and Chill** is my ongoing project for exploring the language in a hands-on, structured way.
 
-The goal is to build a solid foundation and prove practical, working competence with TypeScript over ime.
+The goal is to build a solid foundation and prove practical, working competence with TypeScript over time.
 
 ---
 
