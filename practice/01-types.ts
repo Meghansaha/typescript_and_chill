@@ -2,7 +2,7 @@
 // a js file with the ts equivalent code - Interesting!
 // 
 
-// Basic, most commonly used primitives to start:
+// Basic, most commonly used primitives to start///////////////////////////
 // String
 // First typescript function!
 // I like that this enforces typing explicitly!
@@ -31,3 +31,20 @@ if (energy_check) {
     console.log(`Energy Level:${energy_percent}% - I am NOT tired!`)
 }
 
+// more types ////////////////////////////////////////////////////////
+// Arrays
+// Out in the "real world", we start from zero ( ˶°ㅁ°) !!
+// this array is explicitly typed, although Ts can type inferentially - explicitness is good for documentation IMO though
+const zero_to_twenty: number[] = Array.from({length : 21}, (_, i) => i) // Think of => as the anon function in R (\(x))
+console.log(zero_to_twenty)
+
+// We could start from 1 if we wanted
+const one_to_twenty = Array.from({length: 20}, (_, i) => i + 1)
+console.log(one_to_twenty)
+
+// We could count by 2 if we wanted, too
+const zero_to_twenty_by_two = Array.from({length: 11}, (_, i) => i * 2)
+console.log(zero_to_twenty_by_two)
+
+// Another static method is fromAsync()
+Array.fromAsync()

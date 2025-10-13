@@ -10,7 +10,7 @@
 var person = "Meghan"
 
 // const (read-only and cant change value)
-const moods = ["angry", "happy", "sad", "confused"]
+const moods = ["angry", "happy", "sad", "confused", undefined]
 
 // No reassignments, but mutations are allowed
 moods.push("anxious")
