@@ -46,5 +46,19 @@ console.log(one_to_twenty)
 const zero_to_twenty_by_two = Array.from({length: 11}, (_, i) => i * 2)
 console.log(zero_to_twenty_by_two)
 
-// Another static method is fromAsync()
-Array.fromAsync()
+// any
+// uhhh... I feel like this defeats the purpose of typing... but I'm just learning IDK
+// any allows you to put whatever you want (type-wise) into an object it seems..
+// According to Mozilla: The any type is useful when you don’t want to write out a long type just to convince TypeScript that a particular line of code is okay.
+// You can always use noImplicitAny
+let the_obj: any = 9000
+the_obj = "9000!!"
+
+console.log("It's over", the_obj)
+
+// The beauty of typescript though is the inferential typing
+// This is done by default, but I'll wait to see if I run into cases where explicit typing is needed
+let total_n = 555
+let type_result_1 = typeof total_n === "number"
+
+console.log(type_result_1)
